@@ -17,7 +17,6 @@ BASIC_PACKAGES=(
   openssh-server
   iucode_tool
   systemd-ssh-agent
-  ptyxis
 )
 
 # Генератор ZRAM
@@ -27,10 +26,9 @@ ZRAM_PACKAGES=(
 
 # KDE — основные компоненты
 KDE_MAIN_PACKAGES=(
-  plasma-desktop
   kde
   kde-runtime
-  kde-small
+  kde-mini
   lightdm
   lightdm-kde-greeter
 )
