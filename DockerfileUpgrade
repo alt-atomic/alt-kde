@@ -1,4 +1,4 @@
-FROM ghcr.io/alt-gnome/alt-atomic:base
+FROM ghcr.io/alt-atomic/alt-kde:base
 
 
 RUN --mount=type=bind,source=./src,target=/src \
