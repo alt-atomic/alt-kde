@@ -30,7 +30,7 @@ KDE_MAIN_PACKAGES=(
   plasma-desktop
   kde
   kde-runtime
-  kde-small@META
+  kde-small
   lightdm
   lightdm-kde-greeter
 )
