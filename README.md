@@ -1,5 +1,7 @@
 # ALT Atomic Gnome
 
-Атомарный образ ALT linux с GNOME построенный на базе https://github.com/alt-atomic/alt-image 
+Пример атомарного образа ALT linux с KDE построенный на базе https://github.com/alt-atomic/alt-image 
 
-Документация: https://atomic.alt-gnome.ru/
+Внимание, этот образ создан для пример, внутри вероятно установлены не все пакеты для комфортной работы.
+
+Если есть желание сделать лучше - пишите.
