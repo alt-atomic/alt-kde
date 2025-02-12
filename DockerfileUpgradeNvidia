@@ -1,0 +1,9 @@
+FROM ghcr.io/alt-gnome/alt-atomic:base
+
+RUN --mount=type=bind,source=./src,target=/src \
+    apt-get update && \
+    apt-get dist-upgrade -y && \
+    /src/make/00-atomic-actions.sh && \
+    /src/packages/02-nvidia-packages.sh && \
+    /src/configuration/02-nvidia.sh && \
+    /src/packages/03-apt-ending.sh
