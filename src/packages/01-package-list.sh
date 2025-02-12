@@ -38,6 +38,8 @@ KDE_DESKTOP_APPS=(
   dolphin
   konsole
   plasma-discover
+  libdiscovercommon6
+  plasma-discover-flatpak
 )
 
 # Прочие приложения
