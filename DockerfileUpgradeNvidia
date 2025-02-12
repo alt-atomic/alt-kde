@@ -1,5 +1,9 @@
 FROM ghcr.io/alt-atomic/alt-kde:base
 
+# Определяем тип сборки
+ARG BUILD_TYPE="default"
+ENV BUILD_TYPE=$BUILD_TYPE
+
 RUN --mount=type=bind,source=./src,target=/src \
     apt-get update && \
     apt-get dist-upgrade -y && \
