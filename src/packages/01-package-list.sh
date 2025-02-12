@@ -26,9 +26,10 @@ ZRAM_PACKAGES=(
 
 # KDE — основные компоненты
 KDE_MAIN_PACKAGES=(
+  plasma-desktop
   kde
   kde-runtime
-  kde-mini
+  kde-small
   lightdm
   lightdm-kde-greeter
 )
