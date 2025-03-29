@@ -31,6 +31,7 @@ KDE_MAIN_PACKAGES=(
   kde-mini
   lightdm
   lightdm-kde-greeter
+  gtk-theme-breeze
 )
 
 # KDE — приложения и утилиты
